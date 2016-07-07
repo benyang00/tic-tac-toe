@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Do you even Tic-Tac-Toe?</title>
+</head>
+
+<body>
+  <header class="container">
+  </header>
+  <main>
+    <div class="column" id="reg">
+      <form>
+        Player 1 [X]:
+        <br>
+        <input type="text" name="playerX">
+        <br>
+        Player 2 [O]:
+        <br>
+        <input type="text" name="playerO">
+      </form>
+      <div class="button" id="start">
+        <p>Start Game</p>
+      </div>
+      <!--Becomes Restart Game button when clicked!!!!-->
+      <div class="button" id="rsScore">
+        <p>Reset Score</p>
+      </div>
+    </div>
+    <div class="column" id="gamearea">
+      <div class="gsq" id="sq1"></div>
+      <div class="gsq" id="sq2"></div>
+      <div class="gsq" id="sq3"></div>
+      <div class="gsq" id="sq4"></div>
+      <div class="gsq" id="sq5"></div>
+      <div class="gsq" id="sq6"></div>
+      <div class="gsq" id="sq7"></div>
+      <div class="gsq" id="sq8"></div>
+      <div class="gsq" id="sq9"></div>
+    </div>
+    <aside class="column" id="score">
+      <div class="playerID" id="XID">
+        <p>X</p>
+      </div>
+      <div class="playerID" id="OID">
+        <p>O</p>
+      </div>
+      <div class="scoreboard" id="Xscore">
+        <p></p>
+      </div>
+      <div class="scoreboard" id="Oscore">
+        <p></p>
+      </div>
+    </aside>
+  </main>
+  <hr>
+  <footer class="container">
+    <p>&otimes; BenYang &otimes;</p>
+  </footer>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

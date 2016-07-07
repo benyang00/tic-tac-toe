@@ -1,0 +1,22 @@
+use cases
+user
+- new game [1 button]
+- choose ‘x’ or ‘o’ [2 buttons]
+- submit names [2 forms; 1 button]
+- click reset scores [1 button]
+- restart [1 button]
+- new challengers [1 button]
+
+system
+- initialize
+- tally wins
+- display players’ turns
+- register responses
+- decide wins
+- report wins
+- reset game board
+- reset scores
+- reset players
+
+==================== Logic ===================
+
