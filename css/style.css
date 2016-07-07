@@ -29,7 +29,6 @@ main {
 footer {
   text-align: center;
 }
-/*JS-controlled CSS*/
 .gsq-clicked {
   background-color: rgba(0, 255, 0, 1.0);
   height: 125px;

@@ -26,9 +26,10 @@ function init() { //initializing function
   start();
 
   function run() {
-    var choice = event.target; //defines var choice as element that was most recently clicked
+    var choice = this;
+    console.log(this); //defines var choice as element that was most recently clicked
     var inGrid = choice.id.substring(1, 2);
-    if (choice.innerText === 'X') {
+    if (choice.innerText === '') {
       if (turnNum % 2 === 0) { //Player X's turn
         choice.innerText = 'X';
         gB[inGrid] = 1;
